@@ -1,0 +1,56 @@
+calloc: Taille: 40Début de my_malloc.
+datapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de datapool_heap.
+Succès de l'initialisation de datapool_heap.
+metapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de metapool_heap.
+Succès de l'initialisation de metapool_heap.
+Recherche d'un metablock libre.
+Début de get_free_metablock.
+Début de la recherche d'un metablock libre.
+Vérification du metablock à l'adresse 0x7f714fcde000, taille 4088, statut 0.
+Metablock libre trouvé à l'adresse 0x7f714fcde000, taille 4088.
+Metablock libre trouvé, pas besoin d'étendre le datapool.
+Allocation de 40 octets dans metablock à l'adresse 0x10000.
+Création d'un nouveau metablock libre après allocation, taille restante 4048.
+Début de my_malloc.
+datapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de datapool_heap.
+Succès de l'initialisation de datapool_heap.
+metapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de metapool_heap.
+Succès de l'initialisation de metapool_heap.
+Recherche d'un metablock libre.
+Début de get_free_metablock.
+Début de la recherche d'un metablock libre.
+Vérification du metablock à l'adresse 0x7f7980f26000, taille 4088, statut 0.
+Metablock libre trouvé à l'adresse 0x7f7980f26000, taille 4088.
+Metablock libre trouvé, pas besoin d'étendre le datapool.
+Allocation de 500 octets dans metablock à l'adresse 0x10000.
+Création d'un nouveau metablock libre après allocation, taille restante 3588.
+Début de my_free.
+Bloc à l'adresse 0x10000 libéré avec succès, taille 500.
+Début de my_malloc.
+Recherche d'un metablock libre.
+Début de get_free_metablock.
+Début de la recherche d'un metablock libre.
+Vérification du metablock à l'adresse 0x7f7980f26000, taille 500, statut 0.
+Metablock libre trouvé à l'adresse 0x7f7980f26000, taille 500.
+Metablock libre trouvé, pas besoin d'étendre le datapool.
+Allocation de 500 octets dans metablock à l'adresse 0x10000.
+Création d'un nouveau metablock libre après allocation, taille restante 0.
+Début de my_malloc.
+datapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de datapool_heap.
+Succès de l'initialisation de datapool_heap.
+metapool_heap n'est pas initialisé, initialisation en cours...
+Début de l'initialisation de metapool_heap.
+Succès de l'initialisation de metapool_heap.
+Recherche d'un metablock libre.
+Début de get_free_metablock.
+Début de la recherche d'un metablock libre.
+Vérification du metablock à l'adresse 0x7fbda3f81000, taille 4088, statut 0.
+Metablock libre trouvé à l'adresse 0x7fbda3f81000, taille 4088.
+Metablock libre trouvé, pas besoin d'étendre le datapool.
+Allocation de 200 octets dans metablock à l'adresse 0x10000.
+Création d'un nouveau metablock libre après allocation, taille restante 3888.
